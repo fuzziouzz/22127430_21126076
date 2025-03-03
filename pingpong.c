@@ -28,6 +28,6 @@ int main() {
         printf("%d: received pong\n", getpid());
 
         wait(0);  // Chờ tiến trình con kết thúc
-        exit(0);
+
     }
 }
